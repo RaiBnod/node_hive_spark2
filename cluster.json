@@ -1,0 +1,25 @@
+{
+  "use": "Dev",
+  "Dev": {
+    "driver": "org.apache.hive.jdbc.HiveDriver",
+    "host": "localhost",
+    "port": 10000,
+    "db": "filodb",
+    "timeout": 10,
+    "username": "",
+    "password": "",
+    "minpoolsize": 10,
+    "maxpoolsize": 100
+  },
+  "Prod": {
+    "driver": "org.apache.hive.jdbc.HiveDriver",
+    "host": "localhost",
+    "port": 10000,
+    "db": "filodb",
+    "timeout": 10,
+    "username": "root",
+    "password": "root",
+    "minpoolsize": 10,
+    "maxpoolsize": 100
+  }
+}
